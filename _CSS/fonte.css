@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    font-size: 20px;
+}
+
+h1 {
+      
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+    border: 4px double white;
+    
+}
+
+
+h3 {
+
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 10px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 10px;
+}
+
+li a {
+    display: inline-block;
+    padding: 10px 20px 20px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+li a:hover {
+    background-color: salmon;
+
+}
+
+.container-diario img {
+
+    border: 2px solid brown;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.container-diario a {
+    color: brown;
+    text-align: center;
+    font-size: 18px;
+    padding: 570px;
+
+}
